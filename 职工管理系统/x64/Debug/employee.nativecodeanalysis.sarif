@@ -1,0 +1,142 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Worker::m_Id。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/86132/Desktop/通讯录管理系统/职工管理系统/职工管理系统/worker.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Worker::{ctor}",
+                  "decoratedName": "??0Worker@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Worker::m_Id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Worker::m_salary。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/86132/Desktop/通讯录管理系统/职工管理系统/职工管理系统/worker.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Worker::{ctor}",
+                  "decoratedName": "??0Worker@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Worker::m_salary"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Worker::m_DeptId。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/86132/Desktop/通讯录管理系统/职工管理系统/职工管理系统/worker.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Worker::{ctor}",
+                  "decoratedName": "??0Worker@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Worker::m_DeptId"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/86132/Desktop/通讯录管理系统/职工管理系统/职工管理系统/worker.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "945c7ad89de5048b7a3552bd966d72031c77f5ec95e695b5d003b75408f4d055"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/86132/desktop/通讯录管理系统/职工管理系统/职工管理系统/employee.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3ce041eb15cd4abfeee6b86097ea6fae282f26e531790590bf04965034b1a6e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/86132/desktop/通讯录管理系统/职工管理系统/职工管理系统/employee.h"
+          },
+          "hashes": {
+            "sha-256": "81c52562183cdae90037c766dbd2fa44570b1cc7b21c57e1843ca33589a5e855"
+          }
+        }
+      ]
+    }
+  ]
+}
